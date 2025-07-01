@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plagins/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Enjoy Coffee</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">Enjoy <span>Coffee</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <!-- <img src="./plagins/images/bg-image.jpeg"> -->
+        <section class="carousel">
+            <button class="slider-button slider-button-prev" data-slide-direction="prev">&#8592</button>
+            <button class="slider-button slider-button-next" data-slide-direction="next">&#8594</button>
+            <ul class="slides">
+              <li class="slide" data-active-slide>
+                <img src="./plagins/images/bg-image.jpeg" alt="Royel Enfield Image #1" />
+              </li>
+              <li class="slide">
+                <img src="./plagins/images/bg-img2.jpg" alt="Royel Enfield Image #2" />
+              </li>
+              <li class="slide">
+                <img src="./plagins/images/bg-img3.jpg" alt="Royel Enfield Image #3" />
+              </li>
+            </ul>
+            <div class="slides-circles">
+              <div data-active-slide></div>
+              <div></div>
+              <div></div>
+            </div>
+          </section>
+    
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h3>Menu</h3>
+            <h4>Blabla Coffee Menu</h4>
+        </div>
+        <div class="menu-content">
+            <div class="hot-coffees">
+                <div class="hot-coffees-image">
+                    <img src="./plagins/images/hot-coffees.jpg" alt="">
+                </div>
+                <div class="hot-coffees-body">
+                    <h2>Hot Coffees</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+            <div class="cold-coffees">
+                <div class="cold-coffees-image">
+                    <img src="./plagins/images/cold-coffees.jpg" alt="">
+                </div>
+                <div class="cold-coffees-body">
+                    <h2>Cold Coffees</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+            <div class="frappucino-coffees">
+                <div class="frappucino-coffees-image">
+                    <img src="./plagins/images/frappuccino.jpg" alt="">
+                </div>
+                <div class="frappucino-coffees-body">
+                    <h2>Frappucino Coffees</h2>
+                    <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat!</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <div class="shop" id="shop">
+        <div class="shop-header">
+            <h3>Shop</h3>
+            <h4>Blabla Coffee Drinks</h4>
+        </div>
+        <div class="shop-box">
+            <div class="item-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/caramel-macchiato.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">4.45$</label>
+                        <h3>Caramel Macchiato</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/flat-white.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">3.75$</label>
+                        <h3>Flat White</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/chocolate-frappuccino.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">3.95$</label>
+                        <h3>Chocolate Frappucino</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/frappe.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">2.79$</label>
+                        <h3>Frappe</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/caffe-mocha.png">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">3.45$</label>
+                        <h3>Caffe Mocha</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/vanilla-frappuccino.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">3.25$</label>
+                        <h3>Vanilla Frappucino</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/white-chocolate-mocha.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">6.60$</label>
+                        <h3>White Chocolate Mocha</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-8">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/frappuccino.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <label class="cash">7.00$</label>
+                        <h3>Frappuccino coffee</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+            <div class="item-9">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./plagins/images/ice-latte.jpg">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <label class="cash">5.65$</label>
+                        <h3>Ice Latte</h3>
+                        <label>Lorem ipsum dolor sit amet.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container">
+  <h1>About Shop</h1>
+
+  <button class="accordion"><P>Best Coffees</P></button>
+  <div class="accordion-content">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam excepturi quam ipsum, dolorem minima, aut dicta deleniti expedita nihil ducimus maxime accusamus, eos dignissimos optio ut. Consequuntur laudantium corporis suscipit accusantium pariatur, quam aperiam possimus illo aspernatur cupiditate molestias sed eveniet cum dolores doloremque ullam delectus, blanditiis corrupti veniam nam.
+    </p>
+  </div>
+
+  <button class="accordion"><p>sweet & suger</p></button>
+  <div class="accordion-content">
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, natus similique! Unde sapiente, illum soluta ipsa eius voluptates, impedit accusantium ullam ipsum veritatis, dolorem aspernatur repudiandae pariatur quas repellat! Laborum, dolor molestiae. Sit nam libero tempora incidunt at eligendi exercitationem iusto porro quas accusamus accusantium, ut perspiciatis recusandae reprehenderit vitae.
+    </p>
+  </div>
+
+  <button class="accordion"><p>ingredients of coffee</p></button>
+  <div class="accordion-content">
+    <p>
+     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos reprehenderit in deserunt corporis excepturi molestiae sit sunt illum repudiandae maxime! Harum, corrupti praesentium, facilis dolorum dicta sunt mollitia accusamus aliquam laboriosam iure corporis? Aut rem voluptate qui esse nemo, accusantium minima quo incidunt dolor, enim reiciendis itaque officiis a in!
+    </p>
+  </div>
+</div>
+
+<h2>Shop <span>Population...</span></h2>
+
+<div class="counter-container">
+    <div class="counter" data-target="12000"></div>
+    <span>Twitter Followers</span>
+  </div>
+  <div class="counter-container">
+    <div class="counter" data-target="5000"></div>
+    <span>Youtube Subscribers</span>
+  </div>
+  <div class="counter-container">
+    <div class="counter" data-target="7500"></div>
+    <span>Facebook Fans</span>
+  </div>
+
+
+
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="./plagins/images/bg-image.jpeg">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="form-content">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" required>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+        <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">our Team</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Devlop by <span class="designer">Mayan Pipaliya</span></p>
+        </div>
+    </footer>
+
+    
+    <script src="./plagins/js/script.js"></script>
+    <script src="./plagins/js/jquery-3.7.1.min.js"></script>
+
+</body>
+
+</html>
