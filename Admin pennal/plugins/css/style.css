@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root{
+--color-main: #396aff;
+--bg2: #dce5ff;
+--bg: #fbfefb;
+--main-accent: #e9eefd;
+--main-text: #4b5876;
+--shadow: rgba(17, 17, 26, 0.1) 2px 2px 16px;
+
+}
+
+body
+{
+    background: #fff;
+}
+
+
+/* signup css */
+
+.headding
+{
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+span
+{
+    color: var(--color-main);
+}
+
+.signup
+{
+    width: 400px;
+    border: 2px solid var(--color-main);
+    text-align: center;
+    color: #000;
+    padding: 50px;
+    font-size: 20px;
+    margin-left: 380px;
+    border-radius: 50px 0 50px 0;
+}
+
+.signup_name
+{
+    padding-bottom: 10px;
+    padding-top:20px ;
+    background: none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-color: var(--color-main); 
+    color: #000; 
+    font-size: 20px;
+    outline:none;
+}
+
+.got_id p
+{
+    color: gray;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+.login_page{
+    padding-top: 20px;
+    font-size: 20px;
+    color:gray;
+}
+
+.login_page a
+{
+    color: var(--color-main);
+}
+
+.Submit{
+    padding-top: 20px;
+}
+
+.btn
+{
+    width: 150px;
+    height: 50px;
+    color: #000;
+    background: none;
+    border-color:var(--color-main);
+}
+
+.btn:hover
+{
+    color: #000;
+    background-color: var(--color-main);
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-main);
+    border-radius: 20px;
+}
